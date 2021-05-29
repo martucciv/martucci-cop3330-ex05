@@ -9,7 +9,7 @@ public class Math {
 
         Scanner input2 = new Scanner(System.in);
         System.out.print("What is the second number? ");
-        String string2 = input1.next();
+        String string2 = input2.next();
         int num2 = Integer.parseInt(string2);
 
         int sum = num1 + num2;
